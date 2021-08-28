@@ -35,21 +35,18 @@
 
 `y0` (pronounced "why not?") is Python code for causal inferencing.
 
+This is a fork of the [y0 package](https://github.com/y0-causal-inference/y0).
+The goal of the fork is to have a fixed codebase for reference by a printed
+book.  If you are interested in y0, you are encouraged to visit the original
+repository. 
+
 ## 💪 Getting Started
 
-> TODO show in a very small amount of space the **MOST** useful thing your package can do.
-Make it as short as possible! You have an entire set of docs for later.
+See the notebooks in the notebooks directory to get started.
 
 ## ⬇️ Installation
 
-The most recent release can be installed from
-[PyPI](https://pypi.org/project/y0/) with:
-
-```bash
-$ pip install y0
-```
-
-The most recent code and data can be installed directly from GitHub with:
+Install directly from GitHub with:
 
 ```bash
 $ pip install git+https://github.com/altdeep/y0.git
@@ -70,37 +67,15 @@ license](https://github.com/altdeep/y0/blob/master/LICENSE).
 
 ## 🙏 Contributing
 
-Contributions, whether filing an issue, making a pull request, or forking, are appreciated. See
-[CONTRIBUTING.rst](https://github.com/altdeep/y0/blob/master/CONTRIBUTING.rst) for more information on getting
-involved.
-
-## Acknowledgements
-
-### Supporters
-
-This project has been supported by several organizations (in alphabetical order):
-
-- [Harvard Program in Therapeutic Science - Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/)
-- [Pacific Northwest National Laboratory](https://www.pnnl.org/)
-
-### 💰 Funding
-
-The development of the Y0 Causal Inference Engine has been funded by the following grants:
-
-| Funding Body                                             | Program                                                                                                                       | Grant           |
-|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| DARPA                                                    | [Automating Scientific Knowledge Extraction (ASKE)](https://www.darpa.mil/program/automating-scientific-knowledge-extraction) | HR00111990009   |
-| PNNL Data Model Convergence Initiative    | [Causal Inference and Machine Learning Methods for Analysis of Security Constrained Unit Commitment (SCY0)](https://www.pnnl.gov/projects/dmc/converged-applications-projects) | 90001   |
+Contributions are appreciated, especially if there are errors relevant to books,
+courses, or other pedagogical materials. But for developing the ideas in this
+repo, you are encouraged to contribute to the [original repo](https://github.com/y0-causal-inference/y0)
 
 ### 🍪 Cookiecutter
 
 This package was created with [@audreyfeldroy](https://github.com/audreyfeldroy)'s
 [cookiecutter](https://github.com/cookiecutter/cookiecutter) package using [@cthoyt](https://github.com/cthoyt)'s
 [cookiecutter-python-package](https://github.com/cthoyt/cookiecutter-python-package) template.
-
-## 🛠️ Development
-
-The final section of the README is for if you want to get involved by making a code contribution.
 
 ### ❓ Testing
 
